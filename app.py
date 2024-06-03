@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.responses import RedirectResponse
 
-app = FastAPI(title="api PA SABER KLK")
+app = FastAPI(title="Looking_TheWorld_API")
 
 @app.get("/",include_in_schema=False)
 def index():
