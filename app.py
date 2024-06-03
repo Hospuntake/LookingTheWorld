@@ -1,19 +1,12 @@
 from fastapi import FastAPI
+from fastapi.responses import RedirectResponse
 
-app = FastAPI()
+app = FastAPI(title="api PA SABER KLK")
 
-@app.get("/")
-async def root():
-    return {"greeting": "polla, World!", "message": "pollon to FastAPI!"}
+@app.get("/",include_in_schema=False)
+def index():
+    return RedirectResponse("/docs",status_code=308)
 
 @app.get("/hola")
-async def hola():
+def hola():
     return {"message": "Hola"}
-
-@app.get("/adios")
-async def adios():
-    return {"message": "Adiós"}
-
-@app.get("/bienvenido")
-async def bienvenido():
-    return {"message": "Bienvenido"}
