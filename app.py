@@ -14,42 +14,50 @@ def racism():
         {
             "Imagen": "https://example.com/image1.jpg",
             "frase": "El racismo es una ___ que debemos erradicar.",
-            "respuesta": "lacra"
+            "respuestaOK": "lacra",
+            "Respuestas": ["lacra", "virtud", "alegría", "aventura"]
         },
         {
             "Imagen": "https://example.com/image2.jpg",
             "frase": "La discriminación racial es un ___ de odio.",
-            "respuesta": "acto"
+            "respuestaOK": "acto",
+            "Respuestas": ["acto", "signo", "símbolo", "sonido"]
         },
         {
             "Imagen": "https://example.com/image3.jpg",
             "frase": "La igualdad racial debe ser un ___ en nuestra sociedad.",
-            "respuesta": "objetivo"
+            "respuestaOK": "objetivo",
+            "Respuestas": ["objetivo", "problema", "desastre", "mito"]
         },
         {
             "Imagen": "https://example.com/image4.jpg",
             "frase": "La lucha contra el racismo comienza con la ___.",
-            "respuesta": "educación"
+            "respuestaOK": "educación",
+            "Respuestas": ["educación", "ignorancia", "pereza", "destrucción"]
         },
         {
             "Imagen": "https://example.com/image5.jpg",
             "frase": "Es vital promover la ___ entre todas las razas.",
-            "respuesta": "tolerancia"
+            "respuestaOK": "tolerancia",
+            "Respuestas": ["tolerancia", "agresión", "intolerancia", "apatía"]
         },
         {
             "Imagen": "https://example.com/image6.jpg",
             "frase": "El racismo sistémico es una ___ compleja.",
-            "respuesta": "problemática"
+            "respuestaOK": "problemática",
+            "Respuestas": ["problemática", "solución", "comedia", "anécdota"]
         },
         {
             "Imagen": "https://example.com/image7.jpg",
             "frase": "Debemos enseñar a las futuras generaciones a ___ a todos por igual.",
-            "respuesta": "respetar"
+            "respuestaOK": "respetar",
+            "Respuestas": ["respetar", "odiar", "ignorar", "despreciar"]
         },
         {
             "Imagen": "https://example.com/image8.jpg",
             "frase": "La diversidad racial es una ___ que nos enriquece.",
-            "respuesta": "fortaleza"
+            "respuestaOK": "fortaleza",
+            "Respuestas": ["fortaleza", "debilidad", "enfermedad", "maldición"]
         }
     ]
 
