@@ -1,8 +1,18 @@
 from fastapi import FastAPI
 from fastapi.responses import RedirectResponse
+from fastapi.middleware.cors import CORSMiddleware
 import random
 
 app = FastAPI(title="Looking_TheWorld_API")
+
+# Configuración de CORS para permitir todas las solicitudes desde cualquier origen
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Puedes restringir esto a los dominios que necesites
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/", include_in_schema=False)
 def index():
@@ -23,6 +33,6 @@ def racism():
             "respuestaOK": "acto",
             "Respuestas": ["acto", "signo", "símbolo", "sonido"]
         }    
-            ]
+    ]
 
     return random.choice(data)
