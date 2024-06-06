@@ -6,13 +6,24 @@ import random
 app = FastAPI(title="Looking_TheWorld_API")
 
 # Configuración de CORS para permitir todas las solicitudes desde cualquier origen
+# Configuración básica permitiendo todos los orígenes
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Puedes restringir esto a los dominios que necesites
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Configuración permitiendo solo un origen específico
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://example.com"],
+    allow_credentials=True,
+    allow_methods=["GET", "POST"],
+    allow_headers=["X-Custom-Header"],
+)
+
 
 # Datos de las preguntas
 data = [
