@@ -25,7 +25,7 @@ def racism():
             "Imagen": "https://i.ibb.co/Wg4znmB/imagen-bullying-marroqui.jpg",
             "frase": "The fight against racism begins with ___.",
             "respuestaOK": "education",
-            "Respuestas": ["education", "ignore it"],
+            "Respuestas": ["education", "ignore it", "been passive", "be racist"],
             "Reflexion": "Racism is a problem that we have had in our society for a long time, it occurs due to bad thinking from the education we received since we were children. We tend to be prejudiced against immigrants just because they are not similar to us or our culture."
         },
         {
