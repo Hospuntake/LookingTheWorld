@@ -37,14 +37,14 @@ data = [
     },
     {
         "Imagen": "https://i.ibb.co/h7Gx9b2/igualdaddegenero.jpg",
-        "NombreImagen": "igualdaddegenero.png",
+        "NombreImagen": "igualdaddegenero.jpg",
         "frase": "The fight for gender equality is a ___.",
         "respuestaOK": "necessity",
         "Respuestas": ["necessity", "nonsense", "charade", "not necessary"],
         "Reflexion": "The feminist movement that has occurred in recent decades focusing on equalizing the rights of women respect the rights of men has brought us closer to an era where we have an egalitarian society. Unfortunately, there is still a lot of effort needed to achieve this long-awaited equality; therefore, this feminist movement is still necessary."
     },
     {
-        "Imagen": "https://i.ibb.co/TvhGvgj/respeto.png",
+        "Imagen": "https://i.ibb.co/TvhGvgj/respeto.jpg",
         "NombreImagen": "respeto.png",
         "frase": "We must teach future generations to ___ everyone equally.",
         "respuestaOK": "respect",
@@ -52,7 +52,7 @@ data = [
         "Reflexion": "Respect is very important to acquire from a young age. This quality is acquired thanks to a good education. If we respect everyone, the cases of different types of violence (gender, cultural...) would decrease drastically."
     },
     {
-        "Imagen": "https://i.ibb.co/XLRR6Pf/localfood.png",
+        "Imagen": "https://i.ibb.co/XLRR6Pf/localfood.jpg",
         "NombreImagen": "localfood.png",
         "frase": "It is important to consume ___ food.",
         "respuestaOK": "local",
@@ -60,7 +60,7 @@ data = [
         "Reflexion": "It is very important to consume local products since the process of those that are not pollutes the environment a lot, whether due to their transportation or manufacturing. It is also important to consume what you will actually consume because otherwise, there will be a lot of waste left. By buying in local markets you support the economy and the consumption of these products."
     },
     {
-        "Imagen": "https://i.ibb.co/vQqNYhd/Las-3-rs.webp",
+        "Imagen": "https://i.ibb.co/vQqNYhd/Las-3-rs.jpg",
         "NombreImagen": "Las-3-rs.png",
         "frase": "Which are the 3r?.",
         "respuestaOK": "reuse, reduce, recycle",
